@@ -31,11 +31,11 @@ try:
     havePygame = True
 except ImportError:
     havePygame = False
-try:
-    import pyglet
-    havePyglet = True
-except ImportError:
-    havePyglet = False
+#try:
+#    import pyglet
+#    havePyglet = True
+#except ImportError:
+havePyglet = False
 try:
     import glfw
     haveGLFW = True
